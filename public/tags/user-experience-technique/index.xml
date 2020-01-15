@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Experience, technique on It&#39;s Michael, Nevermike</title>
+    <link>https://nevermike.com/tags/user-experience-technique/</link>
+    <description>Recent content in User Experience, technique on It&#39;s Michael, Nevermike</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nevermike.com/tags/user-experience-technique/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Sprint Certified</title>
+      <link>https://nevermike.com/ideas/design-sprint-certified/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nevermike.com/ideas/design-sprint-certified/</guid>
+      <description>&lt;h3 id=&#34;i-really-love-collaborating&#34;&gt;I really love collaborating!&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Use Proto-Personas</title>
+      <link>https://nevermike.com/ideas/how-to-use-proto-personas/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nevermike.com/ideas/how-to-use-proto-personas/</guid>
+      <description>&lt;h3 id=&#34;a-quick-way-to-kick-off-your-user-centered-design-sessions&#34;&gt;A quick way to Kick off your user-centered design sessions&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

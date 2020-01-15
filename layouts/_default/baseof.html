@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="wrp-screen">
+
+      <div class="wrp-site">
+        {{ partial "siteheader.html" . }}
+        <div class="container">
+          <main id="main">
+           {{ block "main" . }}{{ end }}
+          </main>
+        </div>
+      </div>
+
+      <div class="wrp-site-footer">
+        {{ partial "sitefooter.html" . }}
+      </div>
+
+    </div>
+
+    <!-- {{ partial "script.html" . }} -->
+  </body>
+</html>

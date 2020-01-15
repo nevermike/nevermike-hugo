@@ -1,0 +1,92 @@
+// siteheader
+
+.siteheader {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 4rem 2rem;
+
+  @include bp(phony) {
+    margin: 1rem auto 2rem;
+    padding: .25rem 0 .75rem 0;
+  }
+
+  @include bp(screeny) {
+    width: 90%;
+  }
+}
+
+.logo {
+  flex-basis: 50%;
+  max-width: 8rem;
+  border-radius: 100%;
+
+  a {
+    display: inline-block;
+    border-radius: 100%;
+    background: rgba($hot, .5);
+
+    &:hover {
+      background: $hot;
+    }
+  }
+
+  @include bp(phony) {
+    margin: 0 auto .25rem 2rem;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 100%;
+  }
+}
+
+.sitenavigation {
+  width: 100%;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include bp(phony) {
+      flex-direction: column;
+    }
+  }
+
+  li {
+    margin: 0;
+
+    @include bp(phony) {
+      text-align: center;
+    }
+
+    +li {
+      margin-left: 2rem;
+
+      @include bp(phony) {
+        margin: 0 0 .5rem 0;
+      }
+    }
+
+    a {
+      display: block;
+      padding: .5rem;
+      text-decoration: none;
+      text-underline-offset: .5rem;
+      text-decoration-thickness: .25rem;
+      color: $smokey;
+      @include transition-regular;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.active {
+        color: $hot;
+      }
+    }
+  }
+}

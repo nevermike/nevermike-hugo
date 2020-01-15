@@ -1,0 +1,26 @@
+// Utilities
+
+// Animations
+@mixin transition-regular() {
+  transition: all .2s ease-in;
+}
+
+.popit {
+  // display: block;
+  @include transition-regular;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: transparent !important;
+    box-shadow: 0 0 2rem rgba($lesscold, .5);
+  }
+}
+
+// border radius
+@mixin br-small() {
+  border-radius: .25rem;
+}
+
+@mixin br-large() {
+  border-radius: 1rem;
+}

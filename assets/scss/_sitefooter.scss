@@ -1,0 +1,36 @@
+// sitefooter
+
+.sitefooter {
+  margin: auto;
+  width: 75%;
+  max-width: 75rem;
+  text-align: center;
+
+  p {
+    color: $smokey;
+  }
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  a {
+    display: block;
+    padding: .5rem;
+    background: $hot;
+
+    @include br-small;
+
+    +a {
+      margin-left: 2rem;
+    }
+
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

@@ -1,0 +1,241 @@
+// type.scss
+
+// font varibale
+$body-hind: 'Varela Round', sans-serif;
+$fancy: 'lora', serif;
+$plain: 'Montserrat', sans-serif;
+
+// sizing
+
+$browser-context: 18; //sets base font size
+
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $pixels / $context * 1em;
+}
+
+
+// specs
+
+html {
+  height: 100%;
+}
+
+body {
+  // font-family: $body-font;
+  font-family: $body-hind;
+  font-size: em(24);
+  font-weight: 400;
+  line-height: 1.4;
+  color: $inky;
+  width: 100%;
+  height: 100%;
+  background: $foggy;
+
+  @include bp(phony) {
+    font-size: em(18);
+  }
+}
+
+.container {
+
+  a {
+    color: $hot;
+    text-decoration: none;
+    text-underline-offset: .5rem;
+    text-decoration-thickness: .25rem;
+    text-decoration-color: $foggy;
+
+    @include transition-regular;
+
+    &:hover, :focus {
+      text-decoration: underline;
+      text-underline-offset: .5rem;
+      text-decoration-thickness: .25rem;
+      text-decoration-color: $lesshot;
+    }
+
+    &:visited {
+      color: $lesshot;
+    }
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  line-height: 1;
+  color: $inky !important;
+  background: $hot;
+  box-shadow: 0 0 2rem rgba($hot, 0);
+
+  @include br-small;
+
+  &:hover, :focus {
+    text-decoration: none !important;
+    box-shadow: 0 0 2rem rgba($lesscold, .5);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+p {
+  margin: 1em 0 0;
+  font-weight: 400;
+  line-height: 1.6;
+
+  @include bp(phony) {
+    padding: 0;
+  }
+  @include bp(tablish) {
+    // padding: 0 2rem;
+  }
+}
+
+h1 {
+  margin: 1rem 0 0;
+  font-family: $plain;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: .075rem;
+  color: $inky;
+
+  @include bp(phony) {
+    font-size: em(28);
+  }
+  @include bp(tablish) {
+    font-size: em(32);
+  }
+  @include bp(screeny) {
+    font-size: em(44);;
+  }
+}
+
+h2 {
+  margin: 2rem 0 0;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.0125rem;
+  color: $smokey;
+
+  @include bp(phony) {
+    font-size: em(28);
+  }
+  @include bp(tablish) {
+    font-size: em(32);
+  }
+  @include bp(screeny) {
+    font-size: em(36);
+  }
+}
+
+h3 {
+  margin: 2rem 0 0;
+  font-family: $fancy;
+  font-weight: bold;
+  font-style: italic;
+  font-size: em(32);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: .025rem;
+  color: $lesscold;
+
+  @include bp(phony) {
+    font-size: em(22);
+  }
+  @include bp(tablish) {
+    font-size: em(24);
+  }
+  @include bp(screeny) {
+    font-size: em(32);;
+  }
+}
+
+h4 {
+  margin: 2rem 0 0;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -.05rem;
+  color: $cold;
+
+  @include bp(phony) {
+    font-size: em(20);
+  }
+  @include bp(tablish) {
+    font-size: em(22);
+  }
+  @include bp(screeny) {
+    font-size: em(24);
+  }
+}
+
+ul, ol {
+  margin: 1em 0 0;
+  padding: 0 0 0 2rem;
+
+  li {
+
+    +li {
+      margin-top: .5em;
+    }
+  }
+}
+
+blockquote {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+
+  p {
+    padding: 1rem 0 1rem 2rem;
+    font-family: $fancy;
+    font-style: italic;
+    color: $hot;
+    border-left: .25rem $lesscold solid;
+
+    span {
+      display: block;
+      margin-top: .5rem;
+      font-family: $body-hind;
+      font-style: normal;
+      color: $cloudy;
+      // text-align: right;
+    }
+  }
+}
+
+figcaption {
+  margin: .5rem 1.5rem 0 0;
+  font-size: em(12);
+  font-style: italic;
+  text-align: right;
+}
+
+h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,
+p:first-child,ol:first-child,ul:first-child,dl:first-child {
+  margin-top: 0;
+}
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  height: .25rem;
+  border-radius: .5rem;
+  background: linear-gradient(to right, $cold, $foggy);
+}
+
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}

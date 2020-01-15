@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource on It&#39;s Michael, Nevermike</title>
+    <link>https://nevermike.com/tags/resource/</link>
+    <description>Recent content in Resource on It&#39;s Michael, Nevermike</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nevermike.com/tags/resource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>So, I was listening a podcast</title>
+      <link>https://nevermike.com/ideas/so-i-was-listening-a-podcast/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nevermike.com/ideas/so-i-was-listening-a-podcast/</guid>
+      <description>&lt;h3 id=&#34;a-running-list-of-the-podcasts-i-m-listing-to&#34;&gt;A running list of the podcasts I’m listing to&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

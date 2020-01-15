@@ -1,0 +1,37 @@
+baseURL = "https://nevermike.com/"
+title = "It's Michael, Nevermike"
+SectionPagesMenu = "main"
+
+[permalinks]
+  blog = "/:filename/"
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    identifier = "casestudies"
+    name = "Case Studies"
+    url = "/casestudies/"
+    weight = 1
+  [[menu.main]]
+    identifier = "expereince"
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    identifier = "principles"
+    name = "Principles"
+    url = "/principles/"
+    weight = 3
+  [[menu.main]]
+    identifier = "ideas"
+    name = "Ideas"
+    url = "/ideas/"
+    weight = 4
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateFormat = "Jan 2, 2006"
+  homeText = "Design facilitator and product maker"

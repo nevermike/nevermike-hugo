@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <a href="{{ .RelPermalink }}" class="listcardlink popit">
+    <div class="listcard">
+      {{ with .Params.hero_image }}
+        <div class="listcardimg">
+          <img src="{{ . | relLangURL }}" alt="">
+        </div>
+      {{ end }}
+      <div class="listcardcontent">
+        <h1>{{ .Title }}</h1>
+        {{ .Summary }}
+      </div>
+    </div>
+  </a>
+
+  {{ end }}
+
+{{ end }}

@@ -1,0 +1,44 @@
+// Dark mode
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $inky;
+    color: $hazey;
+  }
+
+  h1 {
+    color: $cloudy;
+  }
+
+  img {
+    opacity: .75;
+    @include transition-regular;
+
+    &:hover {
+      opacity: .85;
+    }
+  }
+
+  hr {
+    background: linear-gradient(to right, $cold, $inky);
+  }
+
+  .listcard {
+    background: rgba($smokey, .25);
+    box-shadow: none;
+  }
+
+  .wrp-site-footer {
+    background: rgba($smokey, .15);
+  }
+
+  .sitenavigation {
+
+    li {
+
+      a {
+        color: $foggy;
+      }
+    }
+  }
+}
