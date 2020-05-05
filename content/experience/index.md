@@ -3,13 +3,18 @@ title: "Experience"
 draft: false
 ---
 
-## Human-centered business solutions
+## I’m an enthusiastic design professional, here to help teams design human-centric business solutions.
 
-### I help companies deliver great experiences to their customers
+<!-- ### I help companies deliver great experiences to their customers -->
+
+### Specialities include:
+* Facilitation of design thinking and design sprint workshops
+* Prototyping from wireframes to high fidelity production
+* Conducting user testing and delivering actionable feedback
 
 ***
 
-After graduating from The School of Visual Arts, my career kicked-off during the early days of NYC’s Silicon Alley. I learned a lot about how to adapt design principles to the web, taught myself how to make websites, and used these skills to help business offer better experiences to customers.
+After graduating from The School of Visual Arts, I kicked-off my career during the early days of NYC’s Silicon Alley. I learned a lot about how to adapt design principles to the web, taught myself how to make websites, and fell in love with helping people use digital products to improve their lives. Now, I use these skills to help business offer better experiences to customers.
 
 #### Companies I've worked with include
 

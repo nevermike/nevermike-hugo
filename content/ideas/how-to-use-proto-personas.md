@@ -1,7 +1,7 @@
 ---
 title: "How to Use Proto-Personas"
 tags: ["User Experience, technique"]
-publishdate: "2019-12-01"
+publishdate: 2019-12-01
 hero_image: /images/ideas/proto-personas.jpg
 draft: false
 ---

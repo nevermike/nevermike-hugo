@@ -16,6 +16,14 @@
   }
 }
 
+.popit-noshadow {
+  @include transition-regular;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
 // border radius
 @mixin br-small() {
   border-radius: .25rem;
@@ -23,4 +31,10 @@
 
 @mixin br-large() {
   border-radius: 1rem;
+}
+
+// inline images
+.inline-fig {
+  font-size: 1rem;
+  font-weight: 100;
 }

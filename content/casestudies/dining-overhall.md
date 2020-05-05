@@ -1,6 +1,7 @@
 ---
 title: "Dining (Over)hall"
 tags: ["User Experience"]
+publishdate: 2019-01-01
 hero_image: /images/casestudies/campusdish-cover.jpg
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Design Sprint Certified"
 tags: ["User Experience, technique"]
-publishdate: "2019-12-22"
+publishdate: 2019-12-22
 hero_image: /images/ideas/certified.jpg
 draft: false
 ---

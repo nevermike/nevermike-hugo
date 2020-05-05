@@ -1,7 +1,7 @@
 ---
 title: "So, I was listening a podcast"
 tags: ["Resource"]
-publishdate: "2019-12-10"
+publishdate: 2019-12-10
 hero_image: /images/ideas/podcasts.jpg
 draft: false
 ---

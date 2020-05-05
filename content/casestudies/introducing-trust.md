@@ -1,6 +1,7 @@
 ---
 title: "Introducing Trust"
 tags: ["User Experience"]
+publishdate: 2019-03-01
 hero_image: /images/casestudies/intro-cover.jpg
 draft: false
 ---

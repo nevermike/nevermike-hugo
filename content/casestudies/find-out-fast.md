@@ -1,6 +1,7 @@
 ---
 title: "Find Out Fast"
 tags: ["User Experience"]
+publishdate: 2019-05-01
 hero_image: /images/casestudies/cocoo-cover.jpg
 draft: false
 ---

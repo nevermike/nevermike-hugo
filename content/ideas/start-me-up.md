@@ -1,7 +1,7 @@
 ---
 title: "(Kick)Start me up"
 tags: ["User Experience, technique"]
-publishdate: "2020-02-04"
+publishdate: 2020-02-04
 hero_image: /images/ideas/kickstart.jpg
 draft: false
 ---

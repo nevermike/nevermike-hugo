@@ -19,25 +19,19 @@
 .logo {
   flex-basis: 50%;
   max-width: 8rem;
-  border-radius: 100%;
+  align-items: center;
+  // border-radius: 100%;
 
   a {
     display: inline-block;
-    border-radius: 100%;
-    background: rgba($hot, .5);
-
-    &:hover {
-      background: $hot;
-    }
+    padding: .5rem;
+    background: url("/images/blob-shape.png") 50% 50% no-repeat;
+    background-size: 100% 100%;
   }
 
   @include bp(phony) {
     margin: 0 auto .25rem 2rem;
     text-align: center;
-  }
-
-  img {
-    border-radius: 100%;
   }
 }
 

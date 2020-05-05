@@ -204,11 +204,12 @@ blockquote {
 
     span {
       display: block;
-      margin-top: .5rem;
+      margin-top: .625rem;
+      font-size: 1rem;
       font-family: $body-hind;
       font-style: normal;
       color: $cloudy;
-      // text-align: right;
+      text-align: right;
     }
   }
 }
