@@ -8,6 +8,24 @@
 
   h1 {
     color: $cloudy;
+    text-shadow:
+    0 0 0.033em $inky,
+    0 0 0.08em $inky,
+    0 0 0.1em $hot,
+    0 0 0.2em $cold,
+    0 0 0.3em $hot,
+    0 0 1em $cold,
+    0 0 1.5em $hot;
+  }
+  h2 {
+    color: lighten($smokey, 20);
+    text-shadow:
+    0 0 0.033em #000,
+    0 0 0.08em #000,
+    0 0 0.1em #000,
+    0 0 0.2em $cold,
+    // 0 0 0.3em #000,
+    0 0 1em $cold,
   }
 
   img {

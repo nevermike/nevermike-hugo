@@ -5,23 +5,15 @@
     <link>https://nevermike.com/tags/user-experience/</link>
     <description>Recent content in User Experience on It&#39;s Michael, Nevermike</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nevermike.com/tags/user-experience/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dining (Over)hall</title>
-      <link>https://nevermike.com/casestudies/dining-overhall/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nevermike.com/casestudies/dining-overhall/</guid>
-      <description>&lt;h3 id=&#34;how-do-you-design-a-responsive-website-serving-over-400-locations&#34;&gt;How do you design a responsive website serving over 400 locations?&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
       <title>Find Out Fast</title>
       <link>https://nevermike.com/casestudies/find-out-fast/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nevermike.com/casestudies/find-out-fast/</guid>
       <description>&lt;h3 id=&#34;how-do-you-find-solutions-with-a-cross-functional-team&#34;&gt;How do you find solutions with a cross-functional team?&lt;/h3&gt;</description>
@@ -30,10 +22,19 @@
     <item>
       <title>Introducing Trust</title>
       <link>https://nevermike.com/casestudies/introducing-trust/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nevermike.com/casestudies/introducing-trust/</guid>
       <description>&lt;h3 id=&#34;how-do-you-connect-with-your-trusted-network-and-improve-your-career&#34;&gt;How do you connect with your trusted network and improve your career?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dining (Over)hall</title>
+      <link>https://nevermike.com/casestudies/dining-overhall/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nevermike.com/casestudies/dining-overhall/</guid>
+      <description>&lt;h3 id=&#34;how-do-you-design-a-responsive-website-serving-over-400-locations&#34;&gt;How do you design a responsive website serving over 400 locations?&lt;/h3&gt;</description>
     </item>
     
   </channel>
